@@ -1,6 +1,7 @@
 import streamlit as st
 import random
 answer = random.sample(range(1, 10), 4)
+st.write(answer)
 
 a = b = n = 0     # 設定 a、b、n 三個變數，預設值 0
 while a!=4:       # 使用 while 迴圈，直到 a 等於 4 才停止
