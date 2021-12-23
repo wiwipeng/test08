@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 import random
 answer = random.sample(range(1, 10), 4)
 st.write(answer)
